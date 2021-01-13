@@ -7,3 +7,6 @@ First you want to locate the file on your desktop. Your RDR2 screenshots/photos 
 and will start with PRDR. I would recommend copying this file into the same folder as the executable and copy the name, however you don't have to. Once you run the exe file, you will be shown a prompt asking you for the location of the file name. If you copied the file earlier then just type in the name of the file and press enter. The app will do the conversion and write to "output.jpg". However, if the photo and the exe file aren't in the same folder, you just need to put either the relative location from the exe to the photo or the complete path. When using a relative path, both / and \ will work for folder navigation.
 
 Once the app is done, it will tell you and just press enter to close the app. Now you have your RDR2 photo converted to jpg.
+
+# Compiling Yourself
+If you want to compile the program yourself, then you are free to do so. I myself have used [g++](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download) to compile. Since this is my first C++ script, I would like to see what improvements can be made.
