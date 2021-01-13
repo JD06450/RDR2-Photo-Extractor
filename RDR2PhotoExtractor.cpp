@@ -23,7 +23,6 @@ int main()
     char *buffer2 = buffer + startBytes;
 
     bool byte1Found = false;
-    bool byte2Found = false;
     unsigned char bytesToFind[] = {0xFF, 0xD9};
     ofstream outputFile;
     outputFile.open("output.jpg", ios::binary);
@@ -38,7 +37,6 @@ int main()
 
         if (byte1Found) {
             if (byteRead == (unsigned int)bytesToFind[1]) {
-                byte2Found = true;
                 break;
             } else {
                 byte1Found = false;
