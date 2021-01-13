@@ -28,8 +28,6 @@ int main()
     outputFile.open("output.jpg", ios::binary);
 
     for (int i = 0; i < len2; i++) {
-        if (byte1Found && byte2Found) break;
-
         outputFile << buffer2[i];
 
         unsigned int byteRead = (unsigned int)buffer2[i];
